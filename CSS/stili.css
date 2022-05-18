@@ -1,0 +1,27 @@
+nav > ul > li {
+    border: 2px solid black;
+    padding: 15px;
+    display: inline;  
+}
+
+article{
+    display: block;
+}
+
+nav > ul > li:nth-child(1), nav > ul > li:nth-child(2), nav > ul > li:nth-child(3){
+    margin-right: 60px;
+}
+
+header > nav{
+    float: left;
+    display: inline;
+    width: 960px;
+    padding: 20px;
+}
+
+.clearfix{
+    clear: both;
+    content: "";
+    display: block;
+    border:0;
+}
